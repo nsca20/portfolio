@@ -1,4 +1,5 @@
 import React from "react";
+import profile from "../assets/profile.png";
 
 function About() {
   return (
@@ -8,7 +9,7 @@ function About() {
         {/* Photo */}
         <div className="about-image">
           <img
-            src="/profile.jpg"
+            src={profile}
             alt="Nicole Alejandro"
           />
         </div>
