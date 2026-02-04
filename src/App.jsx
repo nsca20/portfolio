@@ -6,6 +6,8 @@ import Projects from "./components/Projects";
 import About from "./components/About";
 import Contact from "./components/Contact";
 
+<div id="top"></div>
+
 function App() {
   return (
     <div>

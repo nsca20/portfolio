@@ -5,8 +5,8 @@ function Navbar() {
     <nav className="navbar">
       {/* Logo */}
       <div className="navbar-logo">
-        <span className="logo-text">Nicole</span>
-        <span className="logo-icon">👓</span>
+        <a href="#top" className="nav-logo">Nicole<span className="logo-dot">.</span></a>
+        <span className="logo-icon">🕶</span>
       </div>
 
       {/* Navigation Links */}
