@@ -82,7 +82,7 @@ function Projects() {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="btn project-btn"
-              >
+               >
                 View Project
               </a>
             ) : (
