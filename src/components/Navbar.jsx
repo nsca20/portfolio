@@ -24,7 +24,7 @@ function Navbar() {
         target="_blank"
         rel="noopener noreferrer"
       >
-        View CV
+        My Resume
       </a>
     </nav>
   );
