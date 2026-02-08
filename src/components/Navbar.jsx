@@ -19,7 +19,7 @@ function Navbar() {
 
       {/* CV Button */}
       <a
-        href="/Nicole-Alejandro-CV.pdf"
+        href="/Resume.pdf"
         className="navbar-cv"
         target="_blank"
         rel="noopener noreferrer"
