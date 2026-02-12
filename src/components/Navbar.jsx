@@ -17,10 +17,10 @@ function Navbar() {
         <li><a href="#contact">Contact</a></li>
       </ul>
 
-      {/* CV Button */}
+      {/* Resume Button */}
       <a
-        href="/Resume.pdf"
-        className="navbar-cv"
+        href={`${import.meta.env.BASE_URL}Resume.pdf`}
+        className="navbar-res"
         target="_blank"
         rel="noopener noreferrer"
       >

@@ -219,13 +219,20 @@ h1, h2, h3 {
   transform: scaleX(1);
 }
 
-.navbar-cv {
+.navbar-res {
   margin-left: 2rem;
-}
-
-.navbar-cv .btn {
   padding: 0.5rem 1.25rem;
   font-size: 0.95rem;
+  background-color: var(--primary-color);
+  color: #fff;
+  border-radius: 999px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: 0.2s ease;
+}
+
+.navbar-res:hover {
+  transform: translateY(-2px);
 }
 
 /* Projects Section */
@@ -461,22 +468,6 @@ h1, h2, h3 {
 
 .navbar-links a:hover::after {
   width: 100%;
-}
-
-/* CV Button */
-.navbar-cv {
-  padding: 0.5rem 1.2rem;
-  border-radius: 20px;
-  background-color: var(--primary-color);
-  color: #fff;
-  text-decoration: none;
-  font-weight: 500;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.navbar-cv:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 15px rgba(112, 28, 28, 0.3);
 }
 
 /* Modal */
